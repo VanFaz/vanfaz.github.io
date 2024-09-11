@@ -3,15 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ОЧЕНЬ ВАЖНАЯ ИНФОРМАЦИЯ, КОТОРУЮ ВСЕМ МАКСИМАЛЬНО НЕОБХОДИМО ПРОЧИТАТЬ :)</title>
+    <title>Иванов Иван 1 задание</title>
 </head>
 <body>
 <ul>
     <li><a href="http://kubsu.ru">Абсолютная ссылка на главную страницу kubsu.ru</a></li>
     <li><a href="https://kubsu.ru">Ссылка на kubsu.ru с протоколом https</a></li>
-    <li><a href="image.jpg"><img src="image.jpg" alt="https://github.com/VanFaz/vanfaz.github.io/blob/main/image.jpg?raw=true"></a></li>
+    <li><a href="image.jpg"><img src="" alt="Ссылка-изображение"></a></li>
     <li><a href="/inner-page">Сокращенная ссылка на внутреннюю страницу</a></li>
     <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+    <li> <a href="#section1">Ссылка на фрагмент текущей страницы</a></li>
+    <div id="section1">Фрагмент страницы</div>
+    <li><a href="http://example.com/page?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами</a></li>
+    <li><a href="http://example.com/page?id=123">Ссылка с параметром id</a></li>
+    <li><a href="./page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+    <li><a href="about/page.html">Относительная ссылка на страницу в каталоге about</a></li>
+    <li><a href="../page.html">Относительная ссылка на страницу в каталоге уровнем выше</a></li>
+    <li><a href="../../page.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+    <li><p>Это <a href="http://example.com">контекстная ссылка</a> в тексте абзаца.</p></li>
+    <li><a href="http://example.com/page#section">Ссылка на фрагмент страницы стороннего сайта</a></li>
+    <img src="image.jpg" usemap="#imagemap" alt="Карта изображения">
+    <map name="imagemap">
+    <area shape="rect" coords="34,44,270,350" href="http://example.com" alt="Прямоугольная область">
+    <area shape="circle" coords="337,300,44" href="http://example.com" alt="Круглая область">
+    </map>
+    <li><a href="">Ссылка с пустым href</a></li>
+    <li><a>Ссылка без href</a></li>
+    <li><a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+    <li><meta name="robots" content="noindex"></li>
+    <ol>
+    <li><a href="http://example.com" title="Описание ссылки">Первая ссылка</a></li>
+    <li><a href="http://example.com" title="Описание ссылки">Вторая ссылка</a></li>
+    </ol>
+    <li><a href="ftp://username:password@ftp.example.com/file.txt">Ссылка на файл на сервере FTP</a></li>
+
+    
+
 </ul>
 
   <form action="submit_form.php" method="post">
